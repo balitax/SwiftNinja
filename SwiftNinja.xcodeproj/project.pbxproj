@@ -30,6 +30,7 @@
 		2F00127A20ECAB0500E252CA /* NinjaReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F00127720ECAB0500E252CA /* NinjaReachability.swift */; };
 		2F0012A020ECAD8300E252CA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F00127020ECAAF800E252CA /* Alamofire.framework */; };
 		2F0012A120ECAD8300E252CA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F00127120ECAAF800E252CA /* SDWebImage.framework */; };
+		2F0012A520ECC57800E252CA /* NinjaDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0012A420ECC57800E252CA /* NinjaDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2F00127520ECAB0500E252CA /* NinjaFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaFire.swift; sourceTree = "<group>"; };
 		2F00127620ECAB0500E252CA /* NinjaImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaImage.swift; sourceTree = "<group>"; };
 		2F00127720ECAB0500E252CA /* NinjaReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaReachability.swift; sourceTree = "<group>"; };
+		2F0012A420ECC57800E252CA /* NinjaDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				2F00127520ECAB0500E252CA /* NinjaFire.swift */,
 				2F00127620ECAB0500E252CA /* NinjaImage.swift */,
 				2F00127720ECAB0500E252CA /* NinjaReachability.swift */,
+				2F0012A420ECC57800E252CA /* NinjaDate.swift */,
 			);
 			path = Ninja;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				2F00126D20ECAAE500E252CA /* NinjaErrorCodes.swift in Sources */,
 				2F00126E20ECAAE500E252CA /* NinjaHttpStatusCodes.swift in Sources */,
 				2F00126C20ECAAE500E252CA /* NinjaError.swift in Sources */,
+				2F0012A520ECC57800E252CA /* NinjaDate.swift in Sources */,
 				2F00127920ECAB0500E252CA /* NinjaImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
