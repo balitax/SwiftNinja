@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-fseejncewcepejauaxjjxiqodvep/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/agusc/SwiftNinja/build/SwiftNinja.build/Debug-iphonesimulator/SwiftNinja.build/unextended-module.modulemap',
+    }]
+  }]
+}

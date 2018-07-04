@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "176de8358294bec0fe4544891b367c89"
+build_time: [1530689177, 222110000]
+inputs:
+  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaFire.swift": [1530689123, 0]
+  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaReachability.swift": [1530679504, 0]
+  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaErrorCodes.swift": [1530679045, 0]
+  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaHttpStatusCodes.swift": [1530688411, 0]
+  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaError.swift": [1530679056, 0]
+  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaImage.swift": [1530689164, 0]

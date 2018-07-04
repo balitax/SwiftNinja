@@ -1,0 +1,11 @@
+framework module SwiftNinja {
+  umbrella header "SwiftNinja.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftNinja.Swift {
+    header "SwiftNinja-Swift.h"
+    requires objc
+}

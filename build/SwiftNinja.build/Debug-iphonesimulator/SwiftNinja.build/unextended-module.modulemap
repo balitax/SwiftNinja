@@ -1,0 +1,10 @@
+framework module SwiftNinja {
+  umbrella header "SwiftNinja.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftNinja.__Swift {
+    exclude header "SwiftNinja-Swift.h"
+}

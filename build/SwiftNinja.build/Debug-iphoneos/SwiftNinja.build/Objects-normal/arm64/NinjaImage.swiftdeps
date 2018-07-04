@@ -1,0 +1,268 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NinjaImage"
+provides-nominal:
+- "10SwiftNinja0B5ImageC"
+provides-member:
+- ["10SwiftNinja0B5ImageC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "NinjaImage"
+- !private "SDImageCache"
+- !private "SDWebImageOptions"
+- "String"
+- !private "StringLiteralType"
+- "UIImage"
+- "UIImageView"
+- "URL"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "sd_setImage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "queryCacheOperation"]
+- !private ["s7CVarArgP", "sd_setImage"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "store"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "queryCacheOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "store"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "queryCacheOperation"]
+- !private ["s23CustomStringConvertibleP", "sd_setImage"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "store"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "allowInvalidSSLCertificates"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "queryCacheOperation"]
+- !private ["s9EquatableP", "sd_setImage"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "store"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowInvalidSSLCertificates"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "queryCacheOperation"]
+- !private ["s8HashableP", "sd_setImage"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "store"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "sd_setImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "queryCacheOperation"]
+- !private ["So8NSObjectC", "sd_setImage"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "store"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "queryCacheOperation"]
+- !private ["So16NSObjectProtocolP", "sd_setImage"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "store"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["10SwiftNinja0B5ImageC", "NinjaImage"]
+- !private ["10SwiftNinja0B5ImageC", "SDImageCache"]
+- !private ["10SwiftNinja0B5ImageC", "SDWebImageOptions"]
+- ["10SwiftNinja0B5ImageC", "String"]
+- ["10SwiftNinja0B5ImageC", "UIImage"]
+- ["10SwiftNinja0B5ImageC", "UIImageView"]
+- ["10SwiftNinja0B5ImageC", "URL"]
+- ["10SwiftNinja0B5ImageC", "cachedImage"]
+- ["10SwiftNinja0B5ImageC", "deinit"]
+- ["10SwiftNinja0B5ImageC", "init"]
+- !private ["10SwiftNinja0B5ImageC", "print"]
+- ["10SwiftNinja0B5ImageC", "setImage"]
+- ["10SwiftNinja0B5ImageC", "shared"]
+- ["10SwiftNinja0B5ImageC", "storeImageCache"]
+- !private ["s9OptionSetP", "allowInvalidSSLCertificates"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "allowInvalidSSLCertificates"]
+- !private ["So12SDImageCacheC", "init"]
+- !private ["So12SDImageCacheC", "queryCacheOperation"]
+- !private ["So12SDImageCacheC", "shared"]
+- !private ["So12SDImageCacheC", "store"]
+- !private ["SC17SDWebImageOptionsV", "allowInvalidSSLCertificates"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "allowInvalidSSLCertificates"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
+- !private ["So12UIAppearanceP", "sd_setImage"]
+- !private ["So21UIAppearanceContainerP", "sd_setImage"]
+- !private ["So17UICoordinateSpaceP", "sd_setImage"]
+- !private ["So13UIDynamicItemP", "sd_setImage"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImage"]
+- !private ["So11UIFocusItemP", "sd_setImage"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "sd_setImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
+- !private ["So11UIResponderC", "sd_setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
+- !private ["So18UITraitEnvironmentP", "sd_setImage"]
+- !private ["So6UIViewC", "sd_setImage"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryCacheOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "store"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "10SwiftNinja0B5ImageC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So12SDImageCacheC"
+- !private "SC17SDWebImageOptionsV"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImage+WebP.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/SwiftNinja.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/FLAnimatedImage.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/FLAnimatedImageView+WebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/MKAnnotationView+WebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageFrame.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageGIFCoder.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageImageIOCoder.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageWebPCoder.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageCoder.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageCodersManager.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageCoderHelper.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Headers/FLAnimatedImageView.h"
+- "/Users/agusc/SwiftNinja/build/SwiftNinja.build/Debug-iphoneos/SwiftNinja.build/unextended-module.modulemap"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/agusc/SwiftNinja/SwiftNinja/EmbedFramework/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8acc3c79bc4866eb90d6736ce8e0d200"
