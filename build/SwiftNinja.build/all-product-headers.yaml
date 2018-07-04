@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-fseejncewcepejauaxjjxiqodvep/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Headers",
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-gcvizysblbzwzigkmkqxfmyayxqf/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftNinja-Swift.h",
-          'external-contents': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-fseejncewcepejauaxjjxiqodvep/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Headers/SwiftNinja-Swift.h"
+          'external-contents': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-gcvizysblbzwzigkmkqxfmyayxqf/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Headers/SwiftNinja-Swift.h"
         },
         {
           'type': 'file',
           'name': "SwiftNinja.h",
-          'external-contents': "/Users/agusc/SwiftNinja/SwiftNinja/SwiftNinja.h"
+          'external-contents': "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/SwiftNinja.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-fseejncewcepejauaxjjxiqodvep/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Modules",
+      'name': "/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-gcvizysblbzwzigkmkqxfmyayxqf/Build/Products/Debug-iphonesimulator/SwiftNinja.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/agusc/SwiftNinja/build/SwiftNinja.build/Debug-iphonesimulator/SwiftNinja.build/module.modulemap"
+          'external-contents': "/Users/agusc/Self WorkSpace/SwiftNinja/build/SwiftNinja.build/Debug-iphonesimulator/SwiftNinja.build/module.modulemap"
         }
       ]
     }

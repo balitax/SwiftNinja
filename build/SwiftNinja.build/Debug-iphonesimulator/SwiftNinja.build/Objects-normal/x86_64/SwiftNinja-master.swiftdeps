@@ -1,10 +1,11 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "d2857be2ba51cb8c75cfc4a546c9ed81"
-build_time: [1530689179, 472500000]
+options: "f62bbda772b6687009edabca4258f617"
+build_time: [1530695301, 503723000]
 inputs:
-  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaFire.swift": [1530689123, 0]
-  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaReachability.swift": [1530679504, 0]
-  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaErrorCodes.swift": [1530679045, 0]
-  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaHttpStatusCodes.swift": [1530688411, 0]
-  "/Users/agusc/SwiftNinja/SwiftNinja/Helper/NinjaError.swift": [1530679056, 0]
-  "/Users/agusc/SwiftNinja/SwiftNinja/Ninja/NinjaImage.swift": [1530689164, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Ninja/NinjaFire.swift": [1530689189, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Ninja/NinjaReachability.swift": [1530679504, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Helper/NinjaErrorCodes.swift": [1530679045, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Helper/NinjaHttpStatusCodes.swift": [1530688411, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Helper/NinjaError.swift": [1530679056, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Ninja/NinjaDate.swift": [1530695232, 0]
+  "/Users/agusc/Self WorkSpace/SwiftNinja/SwiftNinja/Ninja/NinjaImage.swift": [1530689164, 0]

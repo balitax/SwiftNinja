@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-fseejncewcepejauaxjjxiqodvep/Build/Products/Debug-iphoneos/SwiftNinja.framework/Modules'
+    'name': '/Users/agusc/Library/Developer/Xcode/DerivedData/SwiftNinja-gcvizysblbzwzigkmkqxfmyayxqf/Build/Products/Debug-iphoneos/SwiftNinja.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/agusc/SwiftNinja/build/SwiftNinja.build/Debug-iphoneos/SwiftNinja.build/unextended-module.modulemap',
+      'external-contents': '/Users/agusc/Self WorkSpace/SwiftNinja/build/SwiftNinja.build/Debug-iphoneos/SwiftNinja.build/unextended-module.modulemap',
     }]
   }]
 }

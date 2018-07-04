@@ -1,203 +1,228 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "NinjaImage"
+- "DateFormat"
+- "NinjaDate"
 provides-nominal:
-- "10SwiftNinja0B5ImageC"
+- "10SwiftNinja10DateFormatO"
+- "10SwiftNinja0B4DateC"
 provides-member:
-- ["10SwiftNinja0B5ImageC", ""]
+- ["10SwiftNinja10DateFormatO", ""]
+- ["10SwiftNinja0B4DateC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "AssignmentPrecedence"
-- "NinjaImage"
-- !private "SDImageCache"
-- !private "SDWebImageOptions"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Date"
+- "DateFormat"
+- !private "DateFormatter"
+- !private "Locale"
+- "NinjaDate"
 - "String"
-- !private "StringLiteralType"
-- "UIImage"
-- "UIImageView"
-- "URL"
-- !private "print"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
 depends-member:
-- !private ["s23BidirectionalCollectionP", "init"]
-- !private ["So15CALayerDelegateP", "sd_setImage"]
-- !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "queryCacheOperation"]
-- !private ["s7CVarArgP", "sd_setImage"]
-- !private ["s7CVarArgP", "shared"]
-- !private ["s7CVarArgP", "store"]
-- !private ["s10CollectionP", "init"]
-- !private ["s10ComparableP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "queryCacheOperation"]
-- !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
-- !private ["s28CustomDebugStringConvertibleP", "shared"]
-- !private ["s28CustomDebugStringConvertibleP", "store"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "queryCacheOperation"]
-- !private ["s23CustomStringConvertibleP", "sd_setImage"]
-- !private ["s23CustomStringConvertibleP", "shared"]
-- !private ["s23CustomStringConvertibleP", "store"]
-- !private ["s9DecodableP", "init"]
-- !private ["s9EncodableP", "init"]
-- !private ["s9EquatableP", "allowInvalidSSLCertificates"]
-- !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "queryCacheOperation"]
-- !private ["s9EquatableP", "sd_setImage"]
-- !private ["s9EquatableP", "shared"]
-- !private ["s9EquatableP", "store"]
-- !private ["s25ExpressibleByArrayLiteralP", "allowInvalidSSLCertificates"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "queryCacheOperation"]
-- !private ["s8HashableP", "sd_setImage"]
-- !private ["s8HashableP", "shared"]
-- !private ["s8HashableP", "store"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["10SwiftNinja10DateFormatO", "RawValue"]
+- ["10SwiftNinja10DateFormatO", "_Default_RawValue"]
+- !private ["10SwiftNinja10DateFormatO", "_findStringSwitchCase"]
+- ["10SwiftNinja10DateFormatO", "dashWithHour"]
+- ["10SwiftNinja10DateFormatO", "dashed"]
+- ["10SwiftNinja10DateFormatO", "dashedYear"]
+- ["10SwiftNinja10DateFormatO", "date"]
+- ["10SwiftNinja10DateFormatO", "deinit"]
+- ["10SwiftNinja10DateFormatO", "full"]
+- ["10SwiftNinja10DateFormatO", "hashValue"]
+- ["10SwiftNinja10DateFormatO", "init"]
+- ["10SwiftNinja10DateFormatO", "month"]
+- ["10SwiftNinja10DateFormatO", "onlyHoursMinute"]
+- ["10SwiftNinja10DateFormatO", "rawValue"]
+- ["10SwiftNinja10DateFormatO", "shortMonth"]
+- ["10SwiftNinja10DateFormatO", "slashed"]
+- ["10SwiftNinja10DateFormatO", "withDay"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "locale"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateFormat"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "locale"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "date"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "string"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateFormat"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "locale"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "string"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "sd_setImage"]
-- !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
 - !private ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "queryCacheOperation"]
-- !private ["So8NSObjectC", "sd_setImage"]
-- !private ["So8NSObjectC", "shared"]
-- !private ["So8NSObjectC", "store"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
 - !private ["So16NSObjectProtocolP", "init"]
-- !private ["So16NSObjectProtocolP", "queryCacheOperation"]
-- !private ["So16NSObjectProtocolP", "sd_setImage"]
-- !private ["So16NSObjectProtocolP", "shared"]
-- !private ["So16NSObjectProtocolP", "store"]
-- !private ["So14NSSecureCodingP", "init"]
-- ["10SwiftNinja0B5ImageC", "NinjaImage"]
-- !private ["10SwiftNinja0B5ImageC", "SDImageCache"]
-- !private ["10SwiftNinja0B5ImageC", "SDWebImageOptions"]
-- ["10SwiftNinja0B5ImageC", "String"]
-- ["10SwiftNinja0B5ImageC", "UIImage"]
-- ["10SwiftNinja0B5ImageC", "UIImageView"]
-- ["10SwiftNinja0B5ImageC", "URL"]
-- ["10SwiftNinja0B5ImageC", "cachedImage"]
-- ["10SwiftNinja0B5ImageC", "deinit"]
-- ["10SwiftNinja0B5ImageC", "init"]
-- !private ["10SwiftNinja0B5ImageC", "print"]
-- ["10SwiftNinja0B5ImageC", "setImage"]
-- ["10SwiftNinja0B5ImageC", "shared"]
-- ["10SwiftNinja0B5ImageC", "storeImageCache"]
-- !private ["s9OptionSetP", "allowInvalidSSLCertificates"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["s16RawRepresentableP", "allowInvalidSSLCertificates"]
-- !private ["So12SDImageCacheC", "init"]
-- !private ["So12SDImageCacheC", "queryCacheOperation"]
-- !private ["So12SDImageCacheC", "shared"]
-- !private ["So12SDImageCacheC", "store"]
-- !private ["SC17SDWebImageOptionsV", "allowInvalidSSLCertificates"]
-- !private ["s8SequenceP", "init"]
-- !private ["s10SetAlgebraP", "allowInvalidSSLCertificates"]
-- !private ["SS", "init"]
-- !private ["s14StringProtocolP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
-- !private ["So29UIAccessibilityIdentificationP", "init"]
-- !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
-- !private ["So12UIAppearanceP", "sd_setImage"]
-- !private ["So21UIAppearanceContainerP", "sd_setImage"]
-- !private ["So17UICoordinateSpaceP", "sd_setImage"]
-- !private ["So13UIDynamicItemP", "sd_setImage"]
-- !private ["So18UIFocusEnvironmentP", "sd_setImage"]
-- !private ["So11UIFocusItemP", "sd_setImage"]
-- !private ["So7UIImageC", "init"]
-- !private ["So11UIImageViewC", "sd_setImage"]
-- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
-- !private ["So11UIResponderC", "sd_setImage"]
-- !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
-- !private ["So18UITraitEnvironmentP", "sd_setImage"]
-- !private ["So6UIViewC", "sd_setImage"]
-- !private ["9Alamofire14URLConvertibleP", "init"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s26_ExpressibleByImageLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "string"]
+- ["10SwiftNinja0B4DateC", "Date"]
+- ["10SwiftNinja0B4DateC", "DateFormat"]
+- !private ["10SwiftNinja0B4DateC", "DateFormatter"]
+- !private ["10SwiftNinja0B4DateC", "Locale"]
+- ["10SwiftNinja0B4DateC", "NinjaDate"]
+- ["10SwiftNinja0B4DateC", "String"]
+- ["10SwiftNinja0B4DateC", "convertDateFormat"]
+- ["10SwiftNinja0B4DateC", "convertDateStringToString"]
+- ["10SwiftNinja0B4DateC", "convertNSDateToString"]
+- ["10SwiftNinja0B4DateC", "convertTimeFormat"]
+- ["10SwiftNinja0B4DateC", "deinit"]
+- ["10SwiftNinja0B4DateC", "init"]
+- ["10SwiftNinja0B4DateC", "shared"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryCacheOperation"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "store"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- !private "s23BidirectionalCollectionP"
-- !private "So15CALayerDelegateP"
-- !private "s7CVarArgP"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
-- !private "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
-- !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
-- !private "s9DecodableP"
-- !private "s9EncodableP"
-- !private "s9EquatableP"
-- !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "s8HashableP"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10SwiftNinja10DateFormatO"
+- !private "So13DateFormatterC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- "s8HashableP"
+- !private "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
 - !private "So8NSCodingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
+- !private "So9NSCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- "10SwiftNinja0B5ImageC"
-- !private "s9OptionSetP"
-- !private "s26RangeReplaceableCollectionP"
-- !private "s16RawRepresentableP"
-- !private "So12SDImageCacheC"
-- !private "SC17SDWebImageOptionsV"
-- !private "s8SequenceP"
-- !private "s10SetAlgebraP"
-- !private "SS"
-- !private "s14StringProtocolP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
-- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
-- !private "So29UIAccessibilityIdentificationP"
-- !private "So12UIAppearanceP"
-- !private "So21UIAppearanceContainerP"
-- !private "So17UICoordinateSpaceP"
-- !private "So13UIDynamicItemP"
-- !private "So18UIFocusEnvironmentP"
-- !private "So11UIFocusItemP"
-- !private "So7UIImageC"
-- !private "So11UIImageViewC"
-- !private "So39UIItemProviderPresentationSizeProvidingP"
-- !private "So30UIPasteConfigurationSupportingP"
-- !private "So11UIResponderC"
-- !private "So30UIResponderStandardEditActionsP"
-- !private "So18UITraitEnvironmentP"
-- !private "So6UIViewC"
-- !private "9Alamofire14URLConvertibleP"
-- !private "s37_DefaultCustomPlaygroundQuickLookableP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s26_ExpressibleByImageLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
+- "10SwiftNinja0B4DateC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s21_ObjectiveCBridgeableP"
-- !private "s16_SwiftStringViewP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -265,4 +290,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "8acc3c79bc4866eb90d6736ce8e0d200"
+interface-hash: "95fd5e694f32d348891ba76752012b56"
