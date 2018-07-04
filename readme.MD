@@ -22,13 +22,13 @@ An amazing swift extension for your project.
 ```ruby
 
 - Ninja Fire
-NinjaFire.shared.request(<#T##url: String##String#>, method: <#T##HTTPMethod#>, encoding: <#T##ParameterEncoding#>, completion: <#T##(Data) -> ()#>, failure: <#T##(NinjaError) -> ()#>)
+NinjaFire.shared.request("", method: HTTPMethod(), encoding: JSONEncoding.default, completion: {}, failure: {})
 
 - Ninja Image
-NinjaImage.shared.setImage(<#T##imageView: UIImageView##UIImageView#>, url: <#T##URL#>, placeholder: <#T##UIImage#>)
+NinjaImage.shared.setImage(UIImageView, url: "", placeholder: UIImage)
 
 - Ninja Date
-NinjaDate.shared.convertDateStringToString(date: <#T##String#>, format: <#T##DateFormat#>)
+NinjaDate.shared.convertDateStringToString(date: "", format: .full)
 
 - Ninja Reachability
  NinjaReachability.isConnectedToNetwork() // Bool
@@ -42,8 +42,8 @@ drag and drop SwiftNinja.framework to your project
 
 ## API Reference
 
-- [Alamofire] (https://github.com/Alamofire/Alamofire)
-- [SDWebImage] (https://github.com/rs/SDWebImage)
+* Alamofire https://github.com/Alamofire/Alamofire
+* SDWebImage https://github.com/rs/SDWebImage
 
 
 ## Contribute
